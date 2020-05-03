@@ -2,8 +2,8 @@ phases:
 install:
     runtime-versions:
       nodejs: 10
-    commands:
-      - npm i react-scripts
+      commands:
+        - npm i react-scripts
 	  
 build:
 	commands:
