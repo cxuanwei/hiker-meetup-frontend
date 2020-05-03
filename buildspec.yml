@@ -4,9 +4,10 @@ install:
       nodejs: 10
        
 pre_build:
-    commands: - npm i react-scripts
+    commands: 
 build:
 	  commands:
+      - npm i react-scripts
       - npm run build
 	  
 artifacts:
