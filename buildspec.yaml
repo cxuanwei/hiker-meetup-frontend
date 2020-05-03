@@ -4,8 +4,7 @@ install:
       nodejs: 10
        
 pre_build:
-  commands:
-     - npm i react-scripts
+  commands: - npm i react-scripts
 	  
 build:
 	commands:
