@@ -2,11 +2,11 @@ phases:
 install:
     runtime-versions:
       nodejs: 10
-       
+
 build:
-	  commands:
-      - npm i react-scripts
-      - npm run build
+  commands:
+    - npm i react-scripts
+    - npm run build
 	  
 artifacts:
   files:
