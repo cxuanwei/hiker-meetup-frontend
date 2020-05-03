@@ -3,8 +3,6 @@ install:
     runtime-versions:
       nodejs: 10
        
-pre_build:
-    commands: 
 build:
 	  commands:
       - npm i react-scripts
