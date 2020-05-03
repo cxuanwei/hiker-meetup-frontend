@@ -8,6 +8,6 @@ phases:
       - npm i react-scripts
       - npm run build
     
-artifacts:
-  files:
-    - build*/**
+  artifacts:
+    files:
+      - build*/**
